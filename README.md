@@ -42,4 +42,16 @@ module.exports = function compiler(input) {
 
 para executar basta dar um `node index` dentro da pasta `src`.
 
+exemplo de I/O:
+
+input
+```lisp
+(add 2 (sub 4 3))
+```
+
+output
+```js
+add(2, sub(4, 3));
+```
+
 criado seguindo o [create your own compiler](https://citw.dev/tutorial/create-your-own-compiler)
