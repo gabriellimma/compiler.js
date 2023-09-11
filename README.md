@@ -16,7 +16,7 @@ console.log(output);
 ```
 
 compiler.js
-```@js
+```js
 const tokenizer = require('./tokenizer.js');
 const parser = require('./parser.js');
 const transformer = require('./transformer.js');
